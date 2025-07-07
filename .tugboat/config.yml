@@ -97,6 +97,9 @@ services:
         # Install/update packages managed by composer.
         - composer install --optimize-autoloader
 
+	# Drush site-install
+        - vendor/bin/drush site:install standard
+
         # Install new configuration and database updates.
         - vendor/bin/drush cache:rebuild
         - vendor/bin/drush status -vvv
