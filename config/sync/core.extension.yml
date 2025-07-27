@@ -2,6 +2,7 @@ _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
   announcements_feed: 0
+  autologout: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -25,6 +26,7 @@ module:
   help: 0
   history: 0
   image: 0
+  js_cookie: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
